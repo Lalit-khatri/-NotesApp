@@ -1,0 +1,288 @@
+
+.bodycontainer{
+	background: #F5F5DC;
+}
+input[type = text]
+{
+  width: 45%;
+  height: 7%;
+  box-sizing: border-box;
+  border: 2px solid #cccccc;
+  font-family: Arial, Helvetica,sans-serif;
+  font-size: normal;
+  margin-top: 0px;
+  margin: 0px 10px;
+  border-radius: 5px;
+}
+textarea
+{
+	width: 45%;
+	height: 40%;
+	border-radius: 5px;
+	box-shadow: 2px;
+	box-sizing: border-box;
+	background:#F9F8F8; 
+	margin: 0px 10px;
+    margin-bottom: 10px;
+    border-color:#cccccc;
+    resize: none;
+}
+
+input[type=submit]
+{
+  background: #4CAF50;
+  width:140px;
+  height: 40px;
+  margin:10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: medium;
+  font-weight: normal;
+  font-family: Arial, Helvetica,sans-serif;
+  color: white;
+  border-radius: 5px;
+
+}
+input[type=submit]:hover {
+      background-color: #45a049;
+  }
+
+input[type=checkbox]
+{
+      font-size: larger;
+      padding: 5px;
+      display:  inline-block;
+  }
+
+.label
+{
+	display: block;
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	padding: 10px;
+	padding-bottom: 0px
+}
+.label-in
+{
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 10px;
+
+
+}
+.chkgroup
+{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: block;
+    margin: 10px;
+}
+
+header
+{
+	/*position: relative;*/
+	width: 100%;
+	height: 100px;
+	line-height: 100PX;
+	text-align: center;
+	
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CFC2BD;
+    box-sizing: border-box;
+    margin:0px;
+    /*padding-left: 50%;*/
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+    /*border-radius: 5px 10px ;*/
+	/*background-color: yellow;*/
+/*	background-image: url(a.jpg);
+	background-size : 100% auto;*/
+}
+.titleContainer
+{
+	font-family: Arial, Helvetica,sans-serif; 
+	font-size: medium;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	background-color: #D5CECC;
+	border-radius: 0px  5px 5px ;
+}
+.titleContainer .backlink
+{
+	box-sizing: border-box;
+	display:inline-block;
+    text-align: center;
+    margin-right: 190px;
+ 
+}
+.titleContainer .home
+{
+	text-decoration: none;
+	font-family: Arial, Helvetica,sans-serif; 
+	font-size: medium;
+	padding: 0 10px;
+	color: #800080 ;
+
+
+}
+
+
+ .home:hover
+{
+	
+	background-color: #E9E3E1;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    /*transition: 0.3s ease-in-out;*/
+
+}
+.titleContainer .new-link
+{
+	/*background-color: #C0C0C0;*/
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+}
+
+form
+{
+	width: 100%;
+	height: 300px;
+	background-color: #F5F5F5;
+	margin: 0px;
+	padding: 20px;
+	border-radius: 5px;
+}
+form .label
+{
+    line-height: 30px;
+    height: 30px;
+    font-family: Arial, Helvetica,sans-serif; 
+    font-size: normal;
+    
+}
+.titlediv
+{
+	/*overflow: scroll;*/
+	 border-radius: 3px 3px 0px 0px;
+    border: 2px solid #CFC2BD;
+    box-sizing: border-box;
+    background-color: #CFC2BD;
+    height: 50px;
+    padding-top: 5px;
+    padding-right: 2px;
+    
+} 
+
+.nt-title
+{
+	display: inline; 
+	font-family:Arial, Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: large;
+	color: #800080;
+	
+	margin-top: 15px;
+	margin-left: 10px;
+	text-align: center;
+
+}
+
+.nt-links
+{
+ float: right;
+ /*margin-left: 0%;*/
+ position:relative;
+text-align: center;
+
+}
+.nt-link
+{
+	display: inline-block;
+	float :margin-right;
+	 text-decoration :none;
+	font-family: Arial, Helvetica,sans-serif;
+	font-weight: normal;
+	font-size: medium;
+	margin:10px;
+
+}
+.nt-content
+{
+	 background-color: #D5CECC ;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+    font-style: italic;
+    padding: 10px;
+    word-wrap: break-word;
+    overflow-y: hidden;
+
+}
+.imp
+{
+   display: block;
+   color: red;
+   font-weight:bold;
+
+
+ 
+}
+.overflow
+{
+	box-sizing: content-box;
+	border: 2px solid #D5CECC;
+	position: relative;
+	margin-left:13%;
+	/*left: 10%;*/
+	width:30%;
+	height:400px;
+	overflow: scroll;
+	display: inline-block;
+}
+.overflowhead
+{
+	 font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	font-weight: bold;
+	font-size: large;
+	display: block;
+	width:73%;
+	/*height: 60%;*/
+	left: 14%;
+	/*background: red; */
+	line-height: 35px;
+	height: 40px;
+	text-shadow: 3px;
+	color: #2F4F4F;
+    margin-top: 9px;
+
+}
+.overflower
+{
+  float : right;
+  margin-right: 33%;
+}
+
+.sort
+{
+  float:right;
+  display: inline-block;
+
+
+}
+
+
+
+
+
+
+
+
+
